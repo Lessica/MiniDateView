@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MiniDateView_Example', :exclusive => true do
+  pod 'MiniDateView', :path => '../'
+end
+
+target 'MiniDateView_Tests', :exclusive => true do
+  pod 'MiniDateView', :path => '../'
+
+  
+end
