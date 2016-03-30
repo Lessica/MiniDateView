@@ -13,14 +13,23 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    MiniDateView *dateView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    MiniDateView *dateView = [[MiniDateView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    dateView = [[MiniDateView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     dateView.tintColor = [UIColor grayColor];
     [self.view addSubview:dateView];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    // Refresh date
+    dateView.date = [[NSDate date] dateByAddingTimeInterval:86400];
+    [dateView setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning {

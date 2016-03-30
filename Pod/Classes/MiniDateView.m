@@ -59,10 +59,7 @@
 }
 
 - (NSDateComponents *)comps {
-    if (!_comps) {
-        _comps = [self.calendar components:self.unitFlags fromDate:self.date];
-    }
-    return _comps;
+    return [self.calendar components:self.unitFlags fromDate:self.date];
 }
 
 - (void)drawRect:(CGRect)rect {
