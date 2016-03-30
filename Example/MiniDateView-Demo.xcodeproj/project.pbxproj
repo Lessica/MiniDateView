@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F2BC5B31CAAE7A200A8B82F /* MiniDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */; };
-		0F4DE4871CAB9BE300680B18 /* MiniDateView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */; };
 		0FA726C71CAAD75200315E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726C61CAAD75200315E09 /* main.m */; };
 		0FA726CA1CAAD75200315E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726C91CAAD75200315E09 /* AppDelegate.m */; };
 		0FA726CD1CAAD75200315E09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726CC1CAAD75200315E09 /* ViewController.m */; };
 		0FA726D01CAAD75200315E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA726CE1CAAD75200315E09 /* Main.storyboard */; };
 		0FA726D21CAAD75200315E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA726D11CAAD75200315E09 /* Assets.xcassets */; };
 		0FA726D51CAAD75200315E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA726D31CAAD75200315E09 /* LaunchScreen.storyboard */; };
+		14ABDA1DD0765390FE042777 /* Pods_MiniDateView_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D44A4F3C3EF86DA1AA97A /* Pods_MiniDateView_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F2BC5B01CAAE7A200A8B82F /* MiniDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniDateView.h; sourceTree = "<group>"; };
-		0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniDateView.m; sourceTree = "<group>"; };
-		0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MiniDateView.bundle; path = ../Assets/MiniDateView.bundle; sourceTree = "<group>"; };
 		0FA726C21CAAD75200315E09 /* MiniDateView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniDateView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA726C61CAAD75200315E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA726C81CAAD75200315E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +27,9 @@
 		0FA726D11CAAD75200315E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FA726D41CAAD75200315E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FA726D61CAAD75200315E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390AA350480CB14DBF418981 /* Pods-MiniDateView-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDateView-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniDateView-Demo/Pods-MiniDateView-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		438D44A4F3C3EF86DA1AA97A /* Pods_MiniDateView_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDateView_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742ECAF695AC38458454AD42 /* Pods-MiniDateView-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDateView-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniDateView-Demo/Pods-MiniDateView-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,28 +37,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14ABDA1DD0765390FE042777 /* Pods_MiniDateView_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F2BC5AE1CAAE7A200A8B82F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */,
-				0F2BC5B01CAAE7A200A8B82F /* MiniDateView.h */,
-				0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */,
-			);
-			name = Classes;
-			path = ../../Pod/Classes;
-			sourceTree = "<group>";
-		};
 		0FA726B91CAAD75200315E09 = {
 			isa = PBXGroup;
 			children = (
 				0FA726C41CAAD75200315E09 /* MiniDateView-Demo */,
 				0FA726C31CAAD75200315E09 /* Products */,
+				FF7FD5D0B174F6442F6D91BC /* Pods */,
+				5963CEE4D41603D4253AA570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +65,6 @@
 		0FA726C41CAAD75200315E09 /* MiniDateView-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				0F2BC5AE1CAAE7A200A8B82F /* Classes */,
 				0FA726C81CAAD75200315E09 /* AppDelegate.h */,
 				0FA726C91CAAD75200315E09 /* AppDelegate.m */,
 				0FA726CB1CAAD75200315E09 /* ViewController.h */,
@@ -96,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5963CEE4D41603D4253AA570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438D44A4F3C3EF86DA1AA97A /* Pods_MiniDateView_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7FD5D0B174F6442F6D91BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390AA350480CB14DBF418981 /* Pods-MiniDateView-Demo.debug.xcconfig */,
+				742ECAF695AC38458454AD42 /* Pods-MiniDateView-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA726D91CAAD75200315E09 /* Build configuration list for PBXNativeTarget "MiniDateView-Demo" */;
 			buildPhases = (
+				5352ECAEFCF6587DDC2B94FB /* Check Pods Manifest.lock */,
 				0FA726BE1CAAD75200315E09 /* Sources */,
 				0FA726BF1CAAD75200315E09 /* Frameworks */,
 				0FA726C01CAAD75200315E09 /* Resources */,
+				0F82A809F5E04185582B47C3 /* Embed Pods Frameworks */,
+				905CD5F48B2590F5FE43FF76 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,13 +164,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA726D51CAAD75200315E09 /* LaunchScreen.storyboard in Resources */,
-				0F4DE4871CAB9BE300680B18 /* MiniDateView.bundle in Resources */,
 				0FA726D21CAAD75200315E09 /* Assets.xcassets in Resources */,
 				0FA726D01CAAD75200315E09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F82A809F5E04185582B47C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniDateView-Demo/Pods-MiniDateView-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5352ECAEFCF6587DDC2B94FB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		905CD5F48B2590F5FE43FF76 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniDateView-Demo/Pods-MiniDateView-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FA726BE1CAAD75200315E09 /* Sources */ = {
@@ -170,7 +227,6 @@
 				0FA726CD1CAAD75200315E09 /* ViewController.m in Sources */,
 				0FA726CA1CAAD75200315E09 /* AppDelegate.m in Sources */,
 				0FA726C71CAAD75200315E09 /* main.m in Sources */,
-				0F2BC5B31CAAE7A200A8B82F /* MiniDateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +338,7 @@
 		};
 		0FA726DA1CAAD75200315E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390AA350480CB14DBF418981 /* Pods-MiniDateView-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MiniDateView-Demo/Info.plist";
@@ -293,6 +350,7 @@
 		};
 		0FA726DB1CAAD75200315E09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742ECAF695AC38458454AD42 /* Pods-MiniDateView-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MiniDateView-Demo/Info.plist";

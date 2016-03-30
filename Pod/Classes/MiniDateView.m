@@ -70,27 +70,27 @@
     int dayOfMonth_A = dayOfMonth / 10;
     int dayOfMonth_B = dayOfMonth % 10;
     if (dayOfMonth_A == 0) {
-        UIImage *day_image_b = [[UIImage imageNamed:[NSString stringWithFormat:@"MiniDateView.bundle/chosen_day_%d", dayOfMonth_B]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        UIImage *day_image_b = MiniDateViewSrcVar(@"chosen_day_%d", dayOfMonth_B);
         [day_image_b drawInRect:CGRectMake(23, 0, 18, 27)];
     } else {
-        UIImage *day_image_a = [[UIImage imageNamed:[NSString stringWithFormat:@"MiniDateView.bundle/chosen_day_%d", dayOfMonth_A]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        UIImage *day_image_a = MiniDateViewSrcVar(@"chosen_day_%d", dayOfMonth_A);
         [day_image_a drawInRect:CGRectMake(17, 0, 18, 27)];
-        UIImage *day_image_b = [[UIImage imageNamed:[NSString stringWithFormat:@"MiniDateView.bundle/chosen_day_%d", dayOfMonth_B]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        UIImage *day_image_b = MiniDateViewSrcVar(@"chosen_day_%d", dayOfMonth_B);
         [day_image_b drawInRect:CGRectMake(36, 0, 18, 27)];
     }
     
     // Draw Weekday
     int weekday = (int)[self.comps weekday];
-    UIImage *weekday_image = [[UIImage imageNamed:[NSString stringWithFormat:@"MiniDateView.bundle/chosen_weekday_%d", weekday]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UIImage *weekday_image = MiniDateViewSrcVar(@"chosen_weekday_%d", weekday);
     [weekday_image drawInRect:CGRectMake(0, 30, 50.5, 12.5)];
     
     // Draw Month Of Year
     int monthOfYear = (int)[self.comps month];
-    UIImage *month_image = [[UIImage imageNamed:[NSString stringWithFormat:@"MiniDateView.bundle/chosen_month_%d", monthOfYear]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UIImage *month_image = MiniDateViewSrcVar(@"chosen_month_%d", monthOfYear);
     [month_image drawInRect:CGRectMake(54, 27, 10, 34)];
     
     // Draw Zero
-    UIImage *zero = [[UIImage imageNamed:@"MiniDateView.bundle/chosen_zero"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UIImage *zero = MiniDateViewSrc(@"chosen_zero");
     [zero drawInRect:CGRectMake(30, 48, 16, 16)];
 }
 
