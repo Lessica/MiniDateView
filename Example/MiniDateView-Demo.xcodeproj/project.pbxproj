@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F2BC5B31CAAE7A200A8B82F /* MiniDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */; };
-		0F2BC5B51CAAE86C00A8B82F /* miniDateView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F2BC5B41CAAE86C00A8B82F /* miniDateView.bundle */; };
+		0F4DE4871CAB9BE300680B18 /* MiniDateView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */; };
 		0FA726C71CAAD75200315E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726C61CAAD75200315E09 /* main.m */; };
 		0FA726CA1CAAD75200315E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726C91CAAD75200315E09 /* AppDelegate.m */; };
 		0FA726CD1CAAD75200315E09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA726CC1CAAD75200315E09 /* ViewController.m */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		0F2BC5B01CAAE7A200A8B82F /* MiniDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniDateView.h; sourceTree = "<group>"; };
 		0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniDateView.m; sourceTree = "<group>"; };
-		0F2BC5B41CAAE86C00A8B82F /* miniDateView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = miniDateView.bundle; path = ../Assets/miniDateView.bundle; sourceTree = "<group>"; };
+		0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MiniDateView.bundle; path = ../Assets/MiniDateView.bundle; sourceTree = "<group>"; };
 		0FA726C21CAAD75200315E09 /* MiniDateView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniDateView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA726C61CAAD75200315E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA726C81CAAD75200315E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		0F2BC5AE1CAAE7A200A8B82F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0F2BC5B41CAAE86C00A8B82F /* miniDateView.bundle */,
+				0F4DE4861CAB9BE300680B18 /* MiniDateView.bundle */,
 				0F2BC5B01CAAE7A200A8B82F /* MiniDateView.h */,
 				0F2BC5B11CAAE7A200A8B82F /* MiniDateView.m */,
 			);
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA726D51CAAD75200315E09 /* LaunchScreen.storyboard in Resources */,
-				0F2BC5B51CAAE86C00A8B82F /* miniDateView.bundle in Resources */,
+				0F4DE4871CAB9BE300680B18 /* MiniDateView.bundle in Resources */,
 				0FA726D21CAAD75200315E09 /* Assets.xcassets in Resources */,
 				0FA726D01CAAD75200315E09 /* Main.storyboard in Resources */,
 			);
